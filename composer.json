@@ -1,0 +1,24 @@
+{
+    "name": "RLC85/PhraseApp",
+    "type": "library",
+    "keywords" : ["phrase app", "phraseapp", "translation", "api" ],
+    "description": "Component library for PhraseApp REST API",
+    "license": "MIT",
+    "homepage": "https://github.com/RLC85/PhraseApp",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Richard Christensen",
+            "email": "me@richardlchristensen.com",
+            "homepage": "http://www.richardlchristensen.com"
+        }
+    ],
+    "require": {
+        "php"         : ">=5.3.5"
+    },
+    "autoload": {
+        "psr-0": {
+            "PhraseApp": "src/"
+        }
+    }
+}
